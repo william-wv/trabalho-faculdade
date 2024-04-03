@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=swap');
+@import "responsiv.css";
+
+/* base */
+:root{
+    --backgraund-principal: #2b2b2b;
+    --color-text: #eeeeee;
+    --color-text2: #727272;
+
+}
+
+html,body{
+    background-color: var(--backgraund-principal);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    overflow-x: hidden;
+    font-size: 20px
+
+}
+p,li,a,span,h1,h2{
+    color: var(--color-text);
+}
+/* header */
+.header-left , .header-right{
+    width: 35%;
+}
+.header-center{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right{
+    display: flex;
+    align-items: end;
+    justify-content: flex-end;
+}
+.data,.li-item,.li-itemx{
+    position: relative;
+    top: 11px;
+}
+.li-item,.data{
+    padding: 0px 0px 0px 30px;
+}
+.cabecalho{
+    padding: 30px 30px 0px 30px ;    
+}
+/* titulo */
+.title{
+    margin-top: 3rem;   
+}
+.h1{
+    width: 140vw;
+}
+.subtitle{
+    display: grid;
+    grid-template-columns: 19.5rem;
+    padding: 2em 0em 2em 3em;
+    font-size: 21px;
+    line-height: 8mm;
+}
+/* lista */
+.h2{
+    color: var(--color-text2) !important;
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+.separator {
+	list-style: none;
+	width: 95%;
+}
+.divisao-button{
+	padding: .5em 0;
+	border-bottom: 1px solid #838383;
+    border-top: 1px solid #838383;
+}
+.div-lista{
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.linha div p{
+    position: relative;
+    top: 10px;
+}
+.number{
+    width: 8%;
+}
+.company{
+    width: 10%;
+}
+.name{
+    width: 30%;
+}
+.tag {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+}
+.tag1{
+    padding: 0rem 2rem 0rem 20rem;
+}
+.divisao-button:hover{
+	border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+.div-h2{
+    margin-bottom: 1rem;
+    width: 16%;
+}
+.span-seta{
+    width: 85%
+}
+.position-img{
+    margin-left: 10px;
+}
+/* aboult */
+.div-achievements,.div-h2meio{
+    margin-top: 15rem;
+    margin-bottom: 10rem;
+}
+.div-achievements2{
+    margin-top: 5rem;    
+}
+.txt-bloco1,.txt-bloco2{
+    font-weight: 700;
+}.div-bloco1{
+    width: 10%;
+}
+.div-bloco2{
+    width: 90%;
+}
+.div-h2-achiv{
+    width: 15.2%;
+}
+.span-seta-achievements{
+    width: 80%;
+}
+.div-h2-achiv2{
+    width: 13%;
+}
+.span-seta-achievements2{
+    width: 70%;
+}
+.text-paragraph{
+    width: 65%;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.link{
+   text-decoration: underline; 
+}
+.link:hover{
+    color: #ffffff;
+}
+.link2{
+    text-decoration: none !important;
+}
+.link2:hover{
+    color: #ffffff;
+}

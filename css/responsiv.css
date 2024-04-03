@@ -1,0 +1,164 @@
+@media (width <= 576px){
+    html,body{
+        font-size: 1rem;
+    }
+    .header-left{
+        display: none;
+    }
+    .header-center{
+        width: 30% !important;
+    }
+    .header-right{
+        width: 90% !important;
+    }
+    .li-item,.li-itemx{
+        padding-left: 10px !important;
+    }
+    .launch{
+        display: none !important;
+    }
+    .title{
+        margin-top: 4rem !important;
+    }
+    .h1{
+        width: 360vw !important;
+    }
+    .subtitle{
+        grid-template-columns: 18rem !important;
+        font-size: 21px;
+        padding-left:2rem !important;
+        padding-top: 3rem !important;
+    }
+    .div-h2{
+        width: 40% !important;
+    }
+    .linha{
+        justify-content: space-between;
+    }
+    .number{
+        width: 20% !important;
+    }
+    
+    .company{
+        width: 40% !important;
+    }
+    .name{
+        width: 90% !important;
+        font-size: 18px !important;
+    }
+    .tag{
+        width: 10% !important;
+        display: flex !important;
+        align-items: end !important;
+        justify-content: flex-end !important;
+        font-size: 15px !important;
+    }
+    .tag1{
+        padding-right: 5px !important;;
+    }
+    
+    .block {
+        display: block !important;
+    }
+    .div-h2-achiv{
+        width: 65% !important;
+    }
+    .div-paragraph{
+        width: 300% !important;
+    }
+
+    .b1{
+        width: 100% !important;
+        font-size: 17px !important;
+    }
+}
+@media (width <= 768px) {
+    .li-item,.li-itemx,.data{
+        padding-left: 10px !important;
+    }
+    .div-lista{
+        margin-top: 5rem !important;
+    }
+    .div-h2{
+        width: 30% !important;
+    }
+    .launch{
+        display: none !important;
+    }
+    .linha{
+        justify-content: space-between;
+    }
+    .number{
+        width: 20% !important;
+    }
+    
+    .company{
+        width: 40% !important;
+    }
+    .name{
+        width: 90% !important;
+        font-size: 18px !important;
+    }
+    .tag{
+        width: 10% !important;
+        display: flex !important;
+        align-items: end !important;
+        justify-content: flex-end !important;
+        font-size: 15px !important;
+    }
+    .tag1{
+        padding-right: 5px !important;;
+    }
+    
+    .block {
+        display: block !important;
+    }
+    .div-h2-achiv{
+        width: 65% !important;
+    }
+    .div-paragraph{
+        width: 300% !important;
+    }
+
+    .b1{
+        width: 100% !important;
+        font-size: 17px !important;
+    }
+}
+
+@media (min-width: 992px) {
+    .div-h2{
+        width: 20% !important;
+    }
+    .company{
+        width: 15% !important;
+    }
+    .name{
+        width: 20% !important;
+    }
+    .tag{
+        position: relative;
+        right: 300px !important;
+    }
+    .div-h2-achiv{
+        width: 50% !important;
+    }
+    
+    .block {
+        display: block !important;
+    }
+    .div-h2-achiv{
+        width: 65% !important;
+    }
+    .div-paragraph{
+        width: 300% !important;
+    }
+
+    .b1{
+        width: 100% !important;
+        font-size: 17px !important;
+    }
+    .block1{
+        display: none !important;;
+    }
+}
